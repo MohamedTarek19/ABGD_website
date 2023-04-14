@@ -1,0 +1,122 @@
+﻿@font-face{
+	src: url("css/TIDO-B.otf") format("opentype");
+  	font-family: TIDO-B;
+}
+.body2{
+margin:0;
+padding:0;
+background-image: url('../images/loginB.png');
+background-color: #FAF9F6;
+font-family: TIDO-B;
+/* Full height */
+  height: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.loginBox{
+	border-radius: 20px;
+	width: 320px;
+	height: 398px;
+	background-color: rgba(41,44,47,0.9);
+	backdrop-filter: blur(5px);
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position:absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 60px 30px;
+	
+	
+}
+.avatar{
+width: 100px;
+height: 100px;
+border-radius: 50px;
+position:absolute;
+top:-50px;
+left: calc(50% - 50px);
+}
+
+h1{
+	margin:0;
+	padding: 0 0 20px;
+	text-align:center;
+	font-size: 22px;
+}
+
+.loginBox p{
+	margin:0;
+	padding:0;
+	font-weight:bold;
+	opacity: 1;
+	
+}
+.loginBox input{
+	width: 100%;
+	margin-bottom: 20px;
+	opacity: 1;
+}
+
+.loginBox input[type=text], input[type=password]{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+	opacity: 1;
+}
+.loginBox input[type=submit]
+{
+border:none;
+outline:none;
+height:40px;
+background:#fb2525;
+color:#fff;
+font-size:18px;
+border-radius: 20px;
+opacity: 1;
+}
+
+.loginBox input[type=submit]:hover{
+cursor:pointer;
+background:#ffc107;
+color: #000;
+
+}
+.loginBox a{
+text-decoration:none;
+font-size:12px;
+line-height: 20px;
+color:darkgrey;
+opacity: 1;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

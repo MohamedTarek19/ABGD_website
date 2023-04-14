@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Childish';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Childish'), url('https://fonts.cdnfonts.com/s/39421/Childish.woff') format('woff');
+}
+
+

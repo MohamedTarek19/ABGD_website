@@ -1,0 +1,48 @@
+﻿.about-section {
+  padding: 50px;
+    text-align: center;
+    background-color: rgba(41,44,47,0.9);
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 219px;
+    backdrop-filter: blur(5px);
+    right: -39px;
+ }
+
+ @font-face{
+	src: url("css/TIDO-B.otf") format("opentype");
+  	font-family: TIDO-B;
+}
+.body2{
+margin:0;
+padding:0;
+background-image: url('../images/loginB.png');
+background-color: #FAF9F6;
+font-family: TIDO-B;
+/* Full height */
+  height: 100%;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+
+  /* Center and scale the image nicely */
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img{
+margin:0;
+padding:0;	
+background-image: url('../images/loginB.png');
+background-color: #FAF9F6;
+font-family: TIDO-B;
+/* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}

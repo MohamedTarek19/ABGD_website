@@ -1,0 +1,15 @@
+﻿.content_body{
+	
+	background-color: #FAF9F6;
+	border-radius: 10px;
+	
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	flex-flow: row;
+	direction:rtl;
+	overflow-x: auto;
+	overflow-y: hidden;
+	position:relative;
+	
+}

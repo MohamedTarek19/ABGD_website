@@ -1,0 +1,45 @@
+﻿.content_body{
+	
+	background-color: #f2f2f2;
+	height:100%;
+	border-radius: 10px;
+	display:flex;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	position:relative;
+	border: black;
+    position: relative;
+    flex-flow: ;
+    border-bottom: outset;
+    border-width: thick;
+    padding:6px ;
+    overflow-x: auto;
+    overflow-y: hidden;
+    direction:rtl;
+    border-top: outset
+	
+}
+
+
+#wrapper{
+	
+	display:grid;
+}
+
+.cellContent {
+  
+  margin-left: 10px;
+  float: right;
+}
+
+.child{
+	background-color: #F2DD72;
+	border-radius: 20px;
+	position: absolute;
+	float:none;
+	margin-top: -60px;
+    margin-right: 84px;
+}
+	
+}

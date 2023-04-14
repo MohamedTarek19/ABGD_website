@@ -1,0 +1,156 @@
+﻿@font-face{
+	src: url("css/TIDO-B.otf") format("opentype");
+  	font-family: TIDO-B;
+}
+
+.body1 {
+  margin: 0;
+  overflow-x: scroll;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+.parent_container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.rightDiv{
+	width:35%; 
+	height:100%;
+	float: right;
+	vertical-align:middle;
+	
+}
+.logo{
+	float:left; 
+	border-radius: 20px;	
+}
+#Logoh:hover{
+background-color:gray;
+	cursor:pointer;
+	background-color:transparent;
+}
+
+
+.left_side{
+	float:left;
+	width:60%;
+	height: 100%;
+}
+.right_side{
+	float:right;	
+	width:30%;
+	text-align:right;
+	height: 100%;
+	margin-right:40px;
+}
+.topnav {
+ /* left: 50%;
+  top:0;
+  transform: translateX(-50%);*/
+  position: -webkit-sticky; /* Safari & IE */
+	position: sticky;
+	top : 0;
+  padding-top: 2px;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 2px;
+  background-color: rgba(41,44,47,0.2);
+  overflow: hidden;
+  /*background-color:transparent;*/
+  border-radius: 20px;
+  /*height: 47px;*/
+  height: 90vh;
+  text-align: center;
+  direction:rtl;
+  backdrop-filter: blur(5px);
+  z-index:40;
+  
+}
+.button1 {
+background-color: #4E26E2;
+border-radius: 20px;
+color: white;
+padding: 20px 32px;
+text-align: center;
+text-decoration: none;
+float:none;
+display: inline-block;
+font-size: 13px;
+
+font-family: TIDO-B;
+}
+
+.button2 {
+background-color: #7231EC;
+border-radius: 20px;
+color: white;
+padding: 20px 32px;
+text-align: center;
+text-decoration: none;
+float:none;
+display: inline-block;
+font-size: 13px;
+font-family: TIDO-B;
+}
+
+.button3 {
+background-color:#B948FF;
+border-radius: 20px;
+color: white;
+padding: 20px 32px;
+text-align: center;
+text-decoration: none;
+float:none;
+display: inline-block;
+font-size: 13px;
+font-family: TIDO-B;
+}
+
+.button4 {
+background-color:#F948FF;
+border-radius: 20px;
+color: white;
+padding: 20px 32px;
+text-align: center;
+text-decoration: none;
+float:none;
+display: inline-block;
+font-size: 13px;
+font-family: TIDO-B;
+}
+
+.button5 {
+background-color:#953DF5;
+border-radius: 20px;
+color: white;
+padding: 20px 32px;
+text-align: center;
+text-decoration: none;
+float:none;
+display: inline-block;
+font-size: 13px;
+font-family: TIDO-B;
+}
+
+
+/*.topnav a {
+  float:none;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}*/
+
+.topnav a:hover {
+  background-color: #7777FF;
+	color: black;
+}
+
+.topnav a.active {
+  background-color: #FF0833;
+  color: black;
+  font-size: 19px;
+}
